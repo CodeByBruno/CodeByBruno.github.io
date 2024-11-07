@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <!--Fim Awesome Icons-->
     <link rel="stylesheet" href="style.css" class="css">
+
+    <script src="menu.js" defer></script>
+
     <title>Meu Portfólio</title>
 </head>
 
@@ -46,26 +49,26 @@
                 </a>
             </div><!--btn-contato-->
 
-            <div class="btn-abrir-menu">
+            <div class="btn-abrir-menu" id="btn-menu">
                 <i class="bi bi-list"></i>
             </div><!--Fim do btn-abrir-menu-->
 
-            <div class="menu-mobile">
+            <div class="menu-mobile" id="menu-mobile">
                 <div class="btn-fechar">
                     <i class="bi bi-x-lg"></i> 
                 </div><!--Fim do btn-fechar-->
                 <nav>
                     <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Especialidades</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Portfólio</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#esp">Especialidades</a></li>
+                        <li><a href="#sob">Sobre</a></li>
+                        <li><a href="#port">Portfólio</a></li>
+                        <li><a href="#form">Contato</a></li>
                     </ul>
                 </nav>
             </div><!--Fim do menu-mobile-->
 
-            <div class="overlay-menu"></div><!--Fim do overlay-menu-->
+            <div class="overlay-menu" id="overlay-menu"></div><!--Fim do overlay-menu-->
         </div><!--Fim da inteface-->
     </header>
 
